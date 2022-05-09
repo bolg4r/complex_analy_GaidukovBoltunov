@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     25313,        595]
-NotebookOptionsPosition[     24081,        568]
-NotebookOutlinePosition[     24521,        585]
-CellTagsIndexPosition[     24478,        582]
+NotebookDataLength[     25533,        594]
+NotebookOptionsPosition[     24358,        568]
+NotebookOutlinePosition[     24762,        584]
+CellTagsIndexPosition[     24719,        581]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,8 +25,7 @@ Cell[BoxData["\[IndentingNewLine]"], "Input",
    3.8609936990794044`*^9, 3.860993741493263*^9}, 3.8609938026702175`*^9, {
    3.860993876322514*^9, 3.860994015213128*^9}, {3.861003896115795*^9, 
    3.8610038982225313`*^9}},
- CellLabel->
-  "In[128]:=",ExpressionUUID->"f8e0cd5b-2edd-4e32-80ef-fb8121e978f4"],
+ CellLabel->"In[1]:=",ExpressionUUID->"f8e0cd5b-2edd-4e32-80ef-fb8121e978f4"],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.860994382884725*^9, 3.860994597696128*^9}, {
@@ -63,8 +62,7 @@ Cell[BoxData[""], "Input",
    3.8610024777054653`*^9}, {3.861002509709447*^9, 3.8610025432880507`*^9}, {
    3.861002598286296*^9, 3.861002604437358*^9}, {3.861002700708681*^9, 
    3.861002721286764*^9}, 3.8610039061841583`*^9},
- CellLabel->
-  "In[129]:=",ExpressionUUID->"3ffbd8f3-5acf-458a-94b2-34afe8696854"],
+ CellLabel->"In[2]:=",ExpressionUUID->"3ffbd8f3-5acf-458a-94b2-34afe8696854"],
 
 Cell[BoxData[{
  RowBox[{
@@ -72,16 +70,16 @@ Cell[BoxData[{
   RowBox[{"x", "^", "2"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"g", "[", "x_", "]"}], ":=", " ", 
-  RowBox[{"x", "^", "0.5"}]}], "\[IndentingNewLine]", 
+  RowBox[{"Exp", "[", "x", "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"l", "[", "x_", "]"}], ":=", " ", 
   RowBox[{"Conjugate", "[", "x", "]"}]}]}], "Input",
  CellChangeTimes->{{3.861002247750936*^9, 3.8610022666597633`*^9}, {
    3.861003051880649*^9, 3.861003061409421*^9}, 3.8610030931452737`*^9, {
    3.8610031528594084`*^9, 3.861003169601597*^9}, {3.861003242315242*^9, 
-   3.8610032990822473`*^9}, {3.86100375350585*^9, 3.861003790150774*^9}},
- CellLabel->
-  "In[130]:=",ExpressionUUID->"6f0047ae-34c2-4643-9bfd-02420d1501fd"],
+   3.8610032990822473`*^9}, {3.86100375350585*^9, 3.861003790150774*^9}, {
+   3.86109573814235*^9, 3.861095758702814*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"6f0047ae-34c2-4643-9bfd-02420d1501fd"],
 
 Cell[CellGroupData[{
 
@@ -209,7 +207,7 @@ Cell[BoxData[
               RowBox[{"PointSize", "[", "0.00003", "]"}]}], "}"}], "}"}]}]}], 
          "]"}]}], " ", "]"}], ",", "\[IndentingNewLine]", 
       RowBox[{"If", " ", "[", 
-       RowBox[{"root", ",", 
+       RowBox[{"exponent", ",", 
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{"ListPlot", "[", "\[IndentingNewLine]", 
@@ -402,7 +400,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"{", 
       RowBox[{
-      "root", ",", "True", ",", "\"\<square root of value(Green)\>\""}], 
+      "exponent", ",", "True", ",", "\"\<exponent of value(Green)\>\""}], 
       "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"True", ",", "False"}], "}"}]}], "}"}], ",", 
@@ -424,32 +422,33 @@ Cell[BoxData[
  CellChangeTimes->{{3.86100332287475*^9, 3.8610033511758394`*^9}, {
   3.861003413572611*^9, 3.861003458782366*^9}, {3.861003507565696*^9, 
   3.8610035256157646`*^9}, {3.861003557590024*^9, 3.861003673562542*^9}, {
-  3.8610038240121093`*^9, 3.861003876508149*^9}},
- CellLabel->
-  "In[133]:=",ExpressionUUID->"d75c1c40-d430-42a0-9f4a-8c64f5c5a3ba"],
+  3.8610038240121093`*^9, 3.861003876508149*^9}, {3.861095851676073*^9, 
+  3.861095904872227*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"d75c1c40-d430-42a0-9f4a-8c64f5c5a3ba"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`conj$$ = True, $CellContext`pt$$ = {-1.135, 
-    0.48}, $CellContext`root$$ = True, $CellContext`squar$$ = True, 
-    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+   DynamicModuleBox[{$CellContext`conj$$ = True, $CellContext`exponent$$ = 
+    True, $CellContext`pt$$ = {0.11500000000000021`, 
+    0.5499999999999998}, $CellContext`squar$$ = True, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`squar$$], True, "squared value( Red)"}, {
       True, False}}, {{
        Hold[$CellContext`conj$$], False, "conjugate(Black)"}, {
       True, False}}, {{
-       Hold[$CellContext`root$$], True, "square root of value(Green)"}, {
+       Hold[$CellContext`exponent$$], True, "exponent of value(Green)"}, {
       True, False}}, {{
        Hold[$CellContext`pt$$], {1, 1}}, Automatic}}, Typeset`size$$ = {
     360., {179., 184.29788372112864`}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
-      "Variables" :> {$CellContext`conj$$ = 
-        False, $CellContext`pt$$ = {1, 1}, $CellContext`root$$ = 
-        True, $CellContext`squar$$ = True}, "ControllerVariables" :> {}, 
+      "Variables" :> {$CellContext`conj$$ = False, $CellContext`exponent$$ = 
+        True, $CellContext`pt$$ = {1, 1}, $CellContext`squar$$ = True}, 
+      "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -483,7 +482,7 @@ Cell[BoxData[
           ListPlot[
            Table[{5, 5}, {$CellContext`n, 1, 2}], PlotStyle -> {{White, 
               PointSize[0.00003]}}]], 
-         If[$CellContext`root$$, {
+         If[$CellContext`exponent$$, {
            ListPlot[
             Table[{
               Re[
@@ -540,13 +539,13 @@ Cell[BoxData[
       "Specifications" :> {{{$CellContext`squar$$, True, 
           "squared value( Red)"}, {
          True, False}}, {{$CellContext`conj$$, False, "conjugate(Black)"}, {
-         True, False}}, {{$CellContext`root$$, True, 
-          "square root of value(Green)"}, {
+         True, False}}, {{$CellContext`exponent$$, True, 
+          "exponent of value(Green)"}, {
          True, False}}, {{$CellContext`pt$$, {1, 1}}, Automatic, ControlType -> 
          Locator, Appearance -> Style["\[FilledCircle]", 12, 
            RGBColor[0.6, 0.73, 0.36]]}}, 
       "Options" :> {TrackedSymbols -> Manipulate}, "DefaultOptions" :> {}],
-     ImageSizeCache->{527., {214.13403328722342`, 219.86596671277658`}},
+     ImageSizeCache->{520., {214.13403328722342`, 219.86596671277658`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -561,14 +560,14 @@ Cell[BoxData[
    3.8610035099159317`*^9, 3.861003529521197*^9}, {3.861003561727337*^9, 
    3.8610035641027555`*^9}, {3.861003676785118*^9, 3.8610037115092077`*^9}, {
    3.861003798705022*^9, 3.8610038020592318`*^9}, 3.8610038773933096`*^9, {
-   3.8610039288865833`*^9, 3.861003932850095*^9}},
- CellLabel->
-  "Out[133]=",ExpressionUUID->"f02aa466-471c-4145-82f9-326caf5923e2"]
+   3.8610039288865833`*^9, 3.861003932850095*^9}, 3.8610949533038254`*^9, 
+   3.8610951096294003`*^9, 3.8610951900821247`*^9, 3.861095926150873*^9, {
+   3.86109626467428*^9, 3.8610962713793945`*^9}},
+ CellLabel->"Out[8]=",ExpressionUUID->"34b333f3-ac47-425e-99f0-90410f8b06f6"]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.2, 574.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (February 4, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"accdc691-6525-4c43-8d16-3c08fbef5816"
@@ -584,18 +583,18 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 526, 8, 48, "Input",ExpressionUUID->"f8e0cd5b-2edd-4e32-80ef-fb8121e978f4"],
-Cell[1087, 30, 2610, 36, 28, "Input",ExpressionUUID->"3ffbd8f3-5acf-458a-94b2-34afe8696854"],
-Cell[3700, 68, 714, 15, 81, "Input",ExpressionUUID->"6f0047ae-34c2-4643-9bfd-02420d1501fd"],
+Cell[558, 20, 521, 7, 48, "Input",ExpressionUUID->"f8e0cd5b-2edd-4e32-80ef-fb8121e978f4"],
+Cell[1082, 29, 2605, 35, 28, "Input",ExpressionUUID->"3ffbd8f3-5acf-458a-94b2-34afe8696854"],
+Cell[3690, 66, 763, 15, 97, "Input",ExpressionUUID->"6f0047ae-34c2-4643-9bfd-02420d1501fd"],
 Cell[CellGroupData[{
-Cell[4439, 87, 231, 4, 28, "Input",ExpressionUUID->"9a4ededf-d273-443e-86d0-5250524fc6c9"],
-Cell[4673, 93, 212, 5, 32, "Output",ExpressionUUID->"b29b9ad6-647c-4158-8fb8-706672cb23ee"]
+Cell[4478, 85, 231, 4, 28, "Input",ExpressionUUID->"9a4ededf-d273-443e-86d0-5250524fc6c9"],
+Cell[4712, 91, 212, 5, 32, "Output",ExpressionUUID->"b29b9ad6-647c-4158-8fb8-706672cb23ee"]
 }, Open  ]],
-Cell[4900, 101, 203, 4, 28, InheritFromParent,ExpressionUUID->"e374d183-4b52-4d44-814f-4a150e823be7"],
-Cell[5106, 107, 152, 3, 28, InheritFromParent,ExpressionUUID->"eda079c2-a715-446d-8dc2-d617418e910e"],
+Cell[4939, 99, 203, 4, 28, "Input",ExpressionUUID->"e374d183-4b52-4d44-814f-4a150e823be7"],
+Cell[5145, 105, 152, 3, 28, "Input",ExpressionUUID->"eda079c2-a715-446d-8dc2-d617418e910e"],
 Cell[CellGroupData[{
-Cell[5283, 114, 12759, 314, 1195, "Input",ExpressionUUID->"d75c1c40-d430-42a0-9f4a-8c64f5c5a3ba"],
-Cell[18045, 430, 6020, 135, 476, "Output",ExpressionUUID->"f02aa466-471c-4145-82f9-326caf5923e2"]
+Cell[5322, 112, 12808, 314, 1195, "Input",ExpressionUUID->"d75c1c40-d430-42a0-9f4a-8c64f5c5a3ba"],
+Cell[18133, 428, 6209, 137, 453, "Output",ExpressionUUID->"34b333f3-ac47-425e-99f0-90410f8b06f6"]
 }, Open  ]]
 }
 ]
